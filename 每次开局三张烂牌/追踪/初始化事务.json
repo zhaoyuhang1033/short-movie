@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "book_title": "每次开局三张烂牌",
+  "last_chapter": 0,
+  "context": {
+    "position": {"volume": "第一卷·烂牌开局", "volume_start_chapter": 1, "story_time": "出租楼裂场发生前一晚", "scene": "临江市城南旧出租楼"},
+    "long_term_constraints": ["每个剧情单元必须完成随机抽取、试错成型、组合翻盘和现实结算", "主角保有失序面板的因果权与结算权", "第一卷不揭示系统来源与失败世界线真相"],
+    "active_character_names": [],
+    "continuity_risks": [],
+    "recent_chapters": [],
+    "next_chapter_commitments": ["300字内让周恕登场，以欠租和停更直播建立颓废处境", "第一章进入出租楼裂场并出现第一次随机三选一"]
+  },
+  "character_snapshots": {},
+  "foreshadow": [],
+  "timeline_events": []
+}

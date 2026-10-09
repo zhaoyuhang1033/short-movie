@@ -1,0 +1,159 @@
+{
+  "artifacts": {
+    "ART-DEC-PROD-001": {
+      "acceptance": {
+        "at": "2026-08-24T07:14:32.351395Z",
+        "decision": "accepted",
+        "note": "用户明确确认按国漫动态漫做",
+        "outputs": {
+          "创作者决策/制作形态.jsonl": "a7bc3bc924e09b1d89dfc59e7b7958bc548468092422c4a503ea80da2c2d0e2d"
+        }
+      },
+      "inputs": {},
+      "outputs": [
+        "创作者决策/制作形态.jsonl"
+      ],
+      "owner": "short-drama",
+      "review": null,
+      "updated_at": "2026-08-24T07:14:32.351395Z"
+    },
+    "ART-DEV-PILOT-001": {
+      "acceptance": {
+        "at": "2026-08-24T07:41:54.354955Z",
+        "decision": "accepted",
+        "note": "创作者明确接受开发方案并授权开始EP001",
+        "outputs": {
+          "项目开发/creative-brief.md": "56726a392c3d06f11eca8c269583cdc579cf70920bf42b72ed4cf7ee94f0da99",
+          "项目开发/episode-map.jsonl": "9996c4ff5d82ed175fa91e64f4a9b957345e0dcfcac692177ece871959cb7f32",
+          "项目开发/story-engine.md": "3a9c7a6e79ea1ff43aa7b8b098ffa7ab5669b5b82bf84bf412d8d131b81b8408"
+        }
+      },
+      "inputs": {},
+      "outputs": [
+        "项目开发/creative-brief.md",
+        "项目开发/episode-map.jsonl",
+        "项目开发/story-engine.md"
+      ],
+      "owner": "short-drama-develop",
+      "review": null,
+      "updated_at": "2026-08-24T07:41:54.354955Z"
+    },
+    "ART-EP001-ASSETS-001": {
+      "acceptance": {
+        "at": "2026-08-24T07:58:36.339135Z",
+        "decision": "accepted",
+        "note": "创作者明确接受第一集视觉设定",
+        "outputs": {
+          "剧集/EP001/视觉设定.md": "38478a66d3f67abd1968ce7a1f05020cb96f9ceac1c3671ee4f5c4d886255a44"
+        }
+      },
+      "inputs": {
+        "short-drama.json": "f57520278096c85997767a0547704efc805235ac31437106648908f9c3688590",
+        "剧集/EP001/剧本.md": "312930f4410b9e59d54760ba4f19bf81126e3d43666e63a69ddc2703a9de0f16"
+      },
+      "outputs": [
+        "剧集/EP001/视觉设定.md"
+      ],
+      "owner": "short-drama-assets",
+      "review": null,
+      "updated_at": "2026-08-24T07:58:36.339135Z"
+    },
+    "ART-EP001-IMAGE-PROMPTS-001": {
+      "acceptance": {
+        "at": "2026-08-24T08:25:21.479887Z",
+        "decision": "accepted",
+        "note": "创作者明确接受第一集图片提示词",
+        "outputs": {
+          "剧集/EP001/图片提示词.md": "c72a9014896a8841354086940bbab55be93556b30f6e667176fc9a1b4d967b80"
+        }
+      },
+      "inputs": {
+        "short-drama.json": "f57520278096c85997767a0547704efc805235ac31437106648908f9c3688590",
+        "剧集/EP001/分镜.md": "28fa35b53a32838e611e3feee60caf82b3e69b9261bdd18bff829a01f82d4ce6",
+        "剧集/EP001/视觉设定.md": "38478a66d3f67abd1968ce7a1f05020cb96f9ceac1c3671ee4f5c4d886255a44"
+      },
+      "outputs": [
+        "剧集/EP001/图片提示词.md"
+      ],
+      "owner": "short-drama-image-prompts",
+      "review": null,
+      "updated_at": "2026-08-24T08:25:21.479887Z"
+    },
+    "ART-EP001-SCRIPT-001": {
+      "acceptance": {
+        "at": "2026-08-24T07:45:31.636977Z",
+        "decision": "accepted",
+        "note": "创作者明确接受第一集",
+        "outputs": {
+          "剧集/EP001/剧本.md": "312930f4410b9e59d54760ba4f19bf81126e3d43666e63a69ddc2703a9de0f16"
+        }
+      },
+      "inputs": {
+        "项目开发/creative-brief.md": "56726a392c3d06f11eca8c269583cdc579cf70920bf42b72ed4cf7ee94f0da99",
+        "项目开发/episode-map.jsonl": "9996c4ff5d82ed175fa91e64f4a9b957345e0dcfcac692177ece871959cb7f32",
+        "项目开发/story-engine.md": "3a9c7a6e79ea1ff43aa7b8b098ffa7ab5669b5b82bf84bf412d8d131b81b8408"
+      },
+      "outputs": [
+        "剧集/EP001/剧本.md"
+      ],
+      "owner": "short-drama-write",
+      "review": null,
+      "updated_at": "2026-08-24T07:45:31.636977Z"
+    },
+    "ART-EP001-STORYBOARD-001": {
+      "acceptance": {
+        "at": "2026-08-24T08:18:14.276182Z",
+        "decision": "accepted",
+        "note": "创作者明确接受第一集分镜",
+        "outputs": {
+          "剧集/EP001/分镜.md": "28fa35b53a32838e611e3feee60caf82b3e69b9261bdd18bff829a01f82d4ce6"
+        }
+      },
+      "inputs": {
+        "short-drama.json": "f57520278096c85997767a0547704efc805235ac31437106648908f9c3688590",
+        "剧集/EP001/剧本.md": "312930f4410b9e59d54760ba4f19bf81126e3d43666e63a69ddc2703a9de0f16",
+        "剧集/EP001/视觉设定.md": "38478a66d3f67abd1968ce7a1f05020cb96f9ceac1c3671ee4f5c4d886255a44"
+      },
+      "outputs": [
+        "剧集/EP001/分镜.md"
+      ],
+      "owner": "short-drama-storyboard",
+      "review": null,
+      "updated_at": "2026-08-24T08:18:14.276182Z"
+    },
+    "ART-EP001-VIDEO-PROMPTS-001": {
+      "acceptance": {
+        "at": "2026-08-24T09:03:43.718654Z",
+        "decision": "accepted",
+        "note": "创作者明确接受第一集视频提示词",
+        "outputs": {
+          "剧集/EP001/视频提示词.md": "ccb00dab6e3f66b7d27d45382d3a0ff83ecd2f1bfe1917a67f5d21e7465954c2"
+        }
+      },
+      "inputs": {
+        "short-drama.json": "f57520278096c85997767a0547704efc805235ac31437106648908f9c3688590",
+        "剧集/EP001/分镜.md": "28fa35b53a32838e611e3feee60caf82b3e69b9261bdd18bff829a01f82d4ce6",
+        "剧集/EP001/图片提示词.md": "c72a9014896a8841354086940bbab55be93556b30f6e667176fc9a1b4d967b80",
+        "剧集/EP001/视觉设定.md": "38478a66d3f67abd1968ce7a1f05020cb96f9ceac1c3671ee4f5c4d886255a44"
+      },
+      "outputs": [
+        "剧集/EP001/视频提示词.md"
+      ],
+      "owner": "short-drama-video-prompts",
+      "review": null,
+      "updated_at": "2026-08-24T09:03:43.718654Z"
+    }
+  },
+  "authority": {
+    "/creator_authority/production_profile": {
+      "decision": "创作者决策/制作形态.jsonl#DEC-PROD-001",
+      "set_at": "2026-08-24T07:14:41.968430Z",
+      "value_sha256": "c1c402873d47cdcd1bec67d9f52702ad3c41303f7de509e7a24cd4d9cf1f3bf3"
+    }
+  },
+  "last_action": "accepted",
+  "project_id": "SD-19DA9CC1A975",
+  "project_layout_mode": "canonical",
+  "schema_version": "2.0",
+  "updated_at": "2026-08-24T09:03:43.718654Z"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "mode": "append",
+  "chapter": 3,
+  "chapter_title": "烂牌也能凑出王炸",
+  "expected_state_revision": 2,
+  "delta": {
+    "result": "周恕以鞋作押物，通过自动售货机之友救出唐小满；随后制造货架高速样本，用二手速度撞碎楼管怪胸牌内的锚核。裂场消失，周恕获得一枚锚片，事务署封锁现场，检测仪显示他的能力不存在。",
+    "character_changes": [
+      {"name": "周恕", "change": "拒绝独自离场，完成首次双增幅构筑与通关；右肩伤势加重，获得锚片一枚"},
+      {"name": "唐小满", "change": "从冰柜映射空间获救，并用游戏币为周恕校准冲击路线"},
+      {"name": "林见鹿", "change": "带队封锁现场，首次检测周恕，发现其能力记录不存在"}
+    ],
+    "foreshadow_changes": [
+      {"action": "upsert", "id": "F002", "summary": "旧冰柜以双向交换连接两层空间，周恕用鞋作押物救出唐小满", "planted_chapter": 2, "planned_resolution_chapter": 3, "status": "已回收", "importance": "高"},
+      {"action": "upsert", "id": "F003", "summary": "直播回放留下无法删除的十七秒异常录像", "planted_chapter": 3, "planned_resolution_chapter": 4, "status": "已埋", "importance": "中"},
+      {"action": "upsert", "id": "F004", "summary": "事务署检测仪判定周恕的能力不存在", "planted_chapter": 3, "planned_resolution_chapter": null, "status": "已埋", "importance": "高"}
+    ],
+    "timeline_events": [
+      {"action": "upsert", "id": "E003", "story_time": "暴雨夜裂场结束时", "objective_fact": "周恕救出唐小满并击碎锚核，出租楼恢复现实，事务署随后封锁现场", "reader_knowledge": "读者已看到临时增幅清空、锚片结算、十七秒录像无法删除，以及能力不存在的检测结果", "reveal_status": "已揭示", "reveal_chapter": 3, "characters": ["周恕", "唐小满", "林见鹿"]}
+    ],
+    "constraints": ["二手速度与自动售货机之友已随通关清空，周恕当前没有可直接使用的增幅", "周恕右肩伤势加重，暂时无法正常抬起右臂", "周恕只有一枚锚片，锚定槽仍未解锁"],
+    "next_chapter_commitments": ["林见鹿连续检测周恕无果并进行现场盘问", "周恕发现十七秒录像仍在，以录像副本换取唐小满免于隔离和自身暂缓收押", "章尾收到发件人为变化零串的短信：你选得比上次好"]
+  },
+  "context": {
+    "position": {"volume": "第一卷·烂牌开局", "volume_start_chapter": 1, "story_time": "暴雨夜裂场刚结束", "scene": "恢复现实的城南出租楼，事务署封锁现场"},
+    "long_term_constraints": ["每个剧情单元必须完成随机抽取、试错成型、组合翻盘和现实结算", "主角保有失序面板的因果权与结算权", "第一卷不揭示系统来源与失败世界线真相"],
+    "active_character_names": ["周恕", "唐小满", "林见鹿"],
+    "continuity_risks": ["系统界面出现再次入场者，但周恕未留意，后续不得让他提前据此推断旧联系", "二手速度的方向由被复制物体当时运动方向决定，正文必须先建立速度样本再发动", "通关后两项临时增幅已清空，下一次裂场前不可继续使用"]
+  },
+  "character_snapshots": {
+    "周恕": {"identity": "25岁；停更两年的游戏区小主播；首次裂场通关者", "location": "恢复现实的城南出租楼", "goal": "保护面板秘密并让唐小满免受隔离", "state": "右肩暂时无法正常抬起；裂场通关后接受事务署检测", "abilities_resources": ["极强的临场拆解能力", "锚片一枚", "磨花的游戏币", "无法删除的十七秒异常录像"], "relationships": ["救出唐小满，成为共同幸存者", "被林见鹿列为异常检测对象"], "knowledge": ["临时增幅通关后清空", "锚片可用于后续成长但锚定槽未解锁", "事务署已介入异常现场"], "open_threads": ["应对林见鹿盘问", "处理十七秒录像", "查明能力不存在与再次入场记录"]},
+    "唐小满": {"identity": "19岁；周恕隔壁邻居；复读生兼便利店夜班", "location": "恢复现实的城南出租楼", "goal": "避免被事务署隔离并弄清刚才的异常", "state": "已脱离冰柜空间，手部有冻裂小口，精神紧张但能正常行动", "abilities_resources": ["与周恕约定的敲墙节奏"], "relationships": ["被周恕救出，与其成为共同幸存者"], "knowledge": ["周恕拥有会随机出现的异常选项", "楼管怪与冰柜空间已经消失"], "open_threads": ["接受事务署问询", "弄清母亲旧事是否与异常有关"]},
+    "林见鹿": {"identity": "城防异常事务署临江三队调查员", "location": "城南旧出租楼封锁现场", "goal": "确认裂场成因及周恕的异常性质", "state": "刚抵达现场，检测仪无法记录周恕能力", "abilities_resources": ["序列能力界尺", "事务署证件与检测仪", "现场封锁权限"], "relationships": ["将周恕视为高风险异常对象", "负责处置周恕与唐小满两名幸存者"], "knowledge": ["出租楼裂场已经消失", "周恕的能力检测结果为不存在"], "open_threads": ["盘问周恕", "取得现场影像证据", "决定两名幸存者的处置方式"]}
+  }
+}

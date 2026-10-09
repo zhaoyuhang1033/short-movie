@@ -1,0 +1,257 @@
+{
+  "book_title": "每次开局三张烂牌",
+  "characters": {
+    "周恕": {
+      "abilities_resources": [
+        "极强的临场拆解能力",
+        "构筑图鉴，可记录复盘已完成组合",
+        "锚片一枚",
+        "磨花的游戏币",
+        "事务署临时联络卡",
+        "被封签回放权限的十七秒录像原片"
+      ],
+      "goal": "治疗右肩并应对直播账号和事务署的后续处置",
+      "identity": "25岁；停更两年的游戏区小主播；首次公开裂场通关者",
+      "knowledge": [
+        "事务署仪器无法检测其能力",
+        "未知对象称他此前做过另一次选择",
+        "唐小满母亲的旧票指向现实不存在的临江南站第十三站"
+      ],
+      "location": "城南出租楼",
+      "open_threads": [
+        "治疗右肩",
+        "查明能力不存在和异常短信",
+        "应对异常直播账号处置",
+        "调查第十三站旧票"
+      ],
+      "relationships": [
+        "与唐小满成为互相保密的共同幸存者",
+        "与林见鹿形成互握筹码的调查关系"
+      ],
+      "state": "右肩仍无法正常抬起；已缴清拖欠房租，通关后的集中疲劳开始显现"
+    },
+    "唐小满": {
+      "abilities_resources": [
+        "与周恕约定的敲墙节奏",
+        "母亲失踪前留下的旧地铁票"
+      ],
+      "goal": "恢复手伤，并查清母亲旧地铁票为何出现不存在的站点",
+      "identity": "19岁；周恕隔壁邻居；复读生兼便利店夜班",
+      "knowledge": [
+        "周恕拥有随机面板和构筑图鉴",
+        "事务署正在调查裂场与周恕",
+        "临江现实地铁线路没有临江南站"
+      ],
+      "location": "城南出租楼周恕房间",
+      "open_threads": [
+        "处理冻伤",
+        "追查母亲失踪与第十三站的联系"
+      ],
+      "relationships": [
+        "认可周恕的救援并主动替其保密",
+        "开始与周恕共享母亲失踪线索"
+      ],
+      "state": "手部冻裂仍包着纱布，精神已稳定；免于隔离但暂受楼下监控"
+    },
+    "林见鹿": {
+      "abilities_resources": [
+        "序列能力界尺",
+        "事务署检测仪",
+        "现场封锁权限",
+        "异常录像副本取得权"
+      ],
+      "goal": "验真异常录像并持续观察周恕",
+      "identity": "城防异常事务署临江三队调查员",
+      "knowledge": [
+        "周恕能力检测不存在",
+        "周恕手机有十七秒异常录像",
+        "唐小满声称周恕救了她"
+      ],
+      "location": "城南出租楼封锁现场",
+      "open_threads": [
+        "完成录像验真",
+        "调查周恕能力与裂场记录",
+        "决定后续监管方式"
+      ],
+      "relationships": [
+        "与周恕从单向审查转为互握筹码"
+      ],
+      "state": "接受周恕提出的有限交易，安排楼下监控"
+    }
+  },
+  "context": {
+    "active_character_names": [
+      "周恕",
+      "唐小满",
+      "林见鹿"
+    ],
+    "continuity_risks": [
+      "周恕已看到上次选择短信，但只确认存在未知旧记录，不能提前推断系统来源",
+      "构筑图鉴不等于组合预测器，下一次入场前不能凭空获得新组合或临时强化"
+    ],
+    "long_term_constraints": [
+      "每个剧情单元必须完成随机抽取、试错成型、组合翻盘和现实结算",
+      "主角保有失序面板的因果权与结算权",
+      "第一卷不揭示系统来源与失败世界线真相"
+    ],
+    "next_chapter_commitments": [
+      "平台与事务署联合封存异常直播账号，林见鹿提出长期观察协议",
+      "周恕从后台时间戳发现直播在裂场前七分钟被远程定时，证明操作不来自自己的设备",
+      "周恕以参加高危的黑户处理人考核换取数据所有权和临时自由，章尾出现许观及随机型不建议存活备注"
+    ],
+    "position": {
+      "scene": "城南出租楼内，旧地铁票显出第十三站",
+      "story_time": "暴雨夜凌晨，通关奖励结算后",
+      "volume": "第一卷·烂牌开局",
+      "volume_start_chapter": 1
+    },
+    "recent_chapters": [
+      {
+        "chapter": 3,
+        "summary": "周恕以鞋作押物，通过自动售货机之友救出唐小满；随后制造货架高速样本，用二手速度撞碎楼管怪胸牌内的锚核。裂场消失，周恕获得一枚锚片，事务署封锁现场，检测仪显示他的能力不存在。"
+      },
+      {
+        "chapter": 4,
+        "summary": "林见鹿连续检测周恕无果，并准备隔离两名幸存者。周恕以十七秒异常录像为筹码，换得唐小满回家和自己留在出租楼配合调查；随后收到内容为你选得比上次好的异常短信。"
+      },
+      {
+        "chapter": 5,
+        "summary": "周恕提交十七秒异常影像副本后领取通关奖励，在事务署补偿解决房租和就医费用后放弃现金与即时治愈，选择只能记录已发现组合的构筑图鉴；唐小满随后拿出母亲失踪前留下的旧地铁票，票面显出临江南站第十三站。"
+      }
+    ]
+  },
+  "foreshadow": {
+    "F001": {
+      "id": "F001",
+      "importance": "高",
+      "planned_resolution_chapter": 200,
+      "planted_chapter": 1,
+      "status": "已埋",
+      "summary": "失序面板称周恕为再次入场者，暗示他与裂场存在被抹去的旧联系",
+      "updated_chapter": 1
+    },
+    "F002": {
+      "id": "F002",
+      "importance": "高",
+      "planned_resolution_chapter": 3,
+      "planted_chapter": 2,
+      "status": "已回收",
+      "summary": "旧冰柜以双向交换连接两层空间，周恕用鞋作押物救出唐小满",
+      "updated_chapter": 3
+    },
+    "F003": {
+      "id": "F003",
+      "importance": "中",
+      "planned_resolution_chapter": 4,
+      "planted_chapter": 3,
+      "status": "已回收",
+      "summary": "十七秒异常录像被周恕用作谈判筹码，事务署取得副本并封存原片回放权限",
+      "updated_chapter": 4
+    },
+    "F004": {
+      "id": "F004",
+      "importance": "高",
+      "planned_resolution_chapter": null,
+      "planted_chapter": 3,
+      "status": "已埋",
+      "summary": "事务署检测仪判定周恕的能力不存在",
+      "updated_chapter": 3
+    },
+    "F005": {
+      "id": "F005",
+      "importance": "高",
+      "planned_resolution_chapter": 200,
+      "planted_chapter": 4,
+      "status": "已埋",
+      "summary": "变化零串发来你选得比上次好的短信，明确周恕存在未知的此前入场记录",
+      "updated_chapter": 4
+    },
+    "F006": {
+      "id": "F006",
+      "importance": "高",
+      "planned_resolution_chapter": 145,
+      "planted_chapter": 5,
+      "status": "已埋",
+      "summary": "唐小满母亲留下的旧地铁票受构筑图鉴感应，显出不存在的临江南站第十三站",
+      "updated_chapter": 5
+    }
+  },
+  "imported_through_chapter": 0,
+  "last_committed_chapter": 5,
+  "schema_version": 4,
+  "state_revision": 5,
+  "timeline": {
+    "E001": {
+      "characters": [
+        "周恕",
+        "唐小满"
+      ],
+      "first_recorded_chapter": 1,
+      "id": "E001",
+      "objective_fact": "城南旧出租楼发生空间循环异常，周恕离开607寻找唐小满并触发失序构筑面板",
+      "reader_knowledge": "读者已看到自动直播、门牌循环、双重下行楼梯以及三项随机增幅；系统来源未知",
+      "reveal_chapter": 1,
+      "reveal_status": "已揭示",
+      "story_time": "暴雨夜23点47分",
+      "updated_chapter": 1
+    },
+    "E002": {
+      "characters": [
+        "周恕",
+        "唐小满"
+      ],
+      "first_recorded_chapter": 2,
+      "id": "E002",
+      "objective_fact": "周恕选择二手速度，遭楼管怪追杀后利用坠落灭火器与斜扶手改变速度方向，踹开冰封防盗门",
+      "reader_knowledge": "读者已知二手速度能复制五秒前半径十米内最快物体的速度且方向不变；唐小满未被找到，只留下鞋与温热硬币",
+      "reveal_chapter": 2,
+      "reveal_status": "已揭示",
+      "story_time": "暴雨夜23点47分后不久",
+      "updated_chapter": 2
+    },
+    "E003": {
+      "characters": [
+        "周恕",
+        "唐小满",
+        "林见鹿"
+      ],
+      "first_recorded_chapter": 3,
+      "id": "E003",
+      "objective_fact": "周恕救出唐小满并击碎锚核，出租楼恢复现实，事务署随后封锁现场",
+      "reader_knowledge": "读者已看到临时增幅清空、锚片结算、十七秒录像无法删除，以及能力不存在的检测结果",
+      "reveal_chapter": 3,
+      "reveal_status": "已揭示",
+      "story_time": "暴雨夜裂场结束时",
+      "updated_chapter": 3
+    },
+    "E004": {
+      "characters": [
+        "周恕",
+        "唐小满",
+        "林见鹿"
+      ],
+      "first_recorded_chapter": 4,
+      "id": "E004",
+      "objective_fact": "周恕与林见鹿完成影像和处置条件交易，唐小满获准回家；异常零串随后向周恕发来短信",
+      "reader_knowledge": "读者已知事务署无法检测周恕能力，十七秒录像带有认知污染，短信称周恕此前做过另一次选择",
+      "reveal_chapter": 4,
+      "reveal_status": "已揭示",
+      "story_time": "暴雨夜裂场结束后",
+      "updated_chapter": 4
+    },
+    "E005": {
+      "characters": [
+        "周恕",
+        "唐小满"
+      ],
+      "first_recorded_chapter": 5,
+      "id": "E005",
+      "objective_fact": "周恕完成异常影像副本提交并选择构筑图鉴作为通关奖励；唐小满母亲的旧票随后显出临江南站第十三站",
+      "reader_knowledge": "读者已知构筑图鉴只能记录已完成的强化组合，旧地铁票会与图鉴发生感应并显出不存在的站点",
+      "reveal_chapter": 5,
+      "reveal_status": "已揭示",
+      "story_time": "暴雨夜凌晨一点四十七分后",
+      "updated_chapter": 5
+    }
+  }
+}

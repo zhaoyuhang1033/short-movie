@@ -1,0 +1,44 @@
+{
+  "created_at": "2026-08-24T07:02:20.326396Z",
+  "creator_authority": {
+    "constraints": [],
+    "decisions_artifact": "创作者决策/",
+    "delivery_surface": {
+      "aspect": null,
+      "overlay_regions": [],
+      "source_ref": null,
+      "status": "unset"
+    },
+    "production_profile": {
+      "choices": {
+        "background_relation": "绘制背景写实度比角色低一档，裂场效果独立分层",
+        "character_identity": "以脸型、眼型、瞳孔高光、发型分层和固定配件的可枚举差异保持跨镜辨识",
+        "color_strategy": "现实层低饱和冷灰，裂场层锈红与冰蓝对抗；氛围色不得吞没人物识别色",
+        "form": "国漫二次元动态漫",
+        "lip_sync": "主要对白做完整或近完整口型，规则说明优先转为屏显和行动后果",
+        "motion_mode": "关键情绪与规则翻盘镜头使用全动作，其余采用高完成度定帧、局部口型、眨眼、发梢衣饰循环与视差"
+      },
+      "status": "accepted"
+    },
+    "visual_direction": {
+      "choices": {
+        "look_development": null
+      },
+      "status": "unset"
+    }
+  },
+  "format": {
+    "aspect_ratio": "9:16",
+    "episode_count": null,
+    "pacing": {
+      "seconds_per_action_paragraph": null,
+      "spoken_characters_per_second": null
+    },
+    "prompt_language": "en",
+    "target_seconds_per_episode": null
+  },
+  "language": "zh-CN",
+  "project_id": "SD-19DA9CC1A975",
+  "schema_version": "1.0.0-draft",
+  "title": "每次开局三张烂牌"
+}
